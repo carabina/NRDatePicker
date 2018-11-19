@@ -1,8 +1,8 @@
 # NRDatePicker
 
 ## Description
-This library is a very simple date picker.
-However, I created this library thinking that the date selection UI of one column actually has demand. Also, there is an implication of swift practice.
+This library is a very simple date picker.  
+However, I created this library thinking that the date selection UI of one column actually has demand. Also, there is an implication of swift practice.  
 From now on, I'd like to add functions little by little.
 
 ## Example
