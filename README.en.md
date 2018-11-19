@@ -1,11 +1,11 @@
 # NRDatePicker
 
 ## Description
-このライブラリはとてもシンプルなものです。  
+This library is a very simple date picker.
   
-しかし、私のプロジェクトでは意外とこの手のUIを実装することがあり練習がてらシンプルなライブラリを作りました。  
+However, I created this library thinking that the date selection UI of one column actually has demand. Also, there is an implication of swift practice.
   
-今後、少しずつ機能を追加していく予定です。
+From now on, I'd like to add functions little by little.
 
 ## Example
 ```
