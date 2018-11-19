@@ -2,6 +2,8 @@
 
 ## Description
 This library is a very simple date picker.
+
+It is a library for easily implementing a list of dates that can not be realized with UIDatePicker.  
   
 However, I created this library thinking that the date selection UI of one column actually has demand. Also, there is an implication of swift practice.
   
