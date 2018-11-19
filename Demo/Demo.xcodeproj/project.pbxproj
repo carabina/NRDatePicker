@@ -12,6 +12,8 @@
 		9A27BD6E21A2EA5100FCB758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27BD6C21A2EA5100FCB758 /* Main.storyboard */; };
 		9A27BD7021A2EA5100FCB758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A27BD6F21A2EA5100FCB758 /* Assets.xcassets */; };
 		9A27BD7321A2EA5100FCB758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27BD7121A2EA5100FCB758 /* LaunchScreen.storyboard */; };
+		9A27BD9021A2EE7500FCB758 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A27BD8E21A2EE7500FCB758 /* Info.plist */; };
+		9A27BD9121A2EE7500FCB758 /* NRDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27BD8F21A2EE7500FCB758 /* NRDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		9A27BD6F21A2EA5100FCB758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A27BD7221A2EA5100FCB758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A27BD7421A2EA5100FCB758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A27BD8D21A2EE7500FCB758 /* NRDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDatePicker.h; sourceTree = "<group>"; };
+		9A27BD8E21A2EE7500FCB758 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A27BD8F21A2EE7500FCB758 /* NRDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		9A27BD5C21A2EA5100FCB758 = {
 			isa = PBXGroup;
 			children = (
+				9A27BD8C21A2EE7500FCB758 /* NRDatePicker */,
 				9A27BD6721A2EA5100FCB758 /* Demo */,
 				9A27BD6621A2EA5100FCB758 /* Products */,
 			);
@@ -62,6 +68,17 @@
 				9A27BD7421A2EA5100FCB758 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		9A27BD8C21A2EE7500FCB758 /* NRDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9A27BD8D21A2EE7500FCB758 /* NRDatePicker.h */,
+				9A27BD8E21A2EE7500FCB758 /* Info.plist */,
+				9A27BD8F21A2EE7500FCB758 /* NRDatePicker.swift */,
+			);
+			name = NRDatePicker;
+			path = ../NRDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A27BD9021A2EE7500FCB758 /* Info.plist in Resources */,
 				9A27BD7321A2EA5100FCB758 /* LaunchScreen.storyboard in Resources */,
 				9A27BD7021A2EA5100FCB758 /* Assets.xcassets in Resources */,
 				9A27BD6E21A2EA5100FCB758 /* Main.storyboard in Resources */,
@@ -136,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A27BD6B21A2EA5100FCB758 /* ViewController.swift in Sources */,
+				9A27BD9121A2EE7500FCB758 /* NRDatePicker.swift in Sources */,
 				9A27BD6921A2EA5100FCB758 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
