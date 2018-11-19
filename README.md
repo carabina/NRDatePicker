@@ -7,6 +7,11 @@
   
 今後、少しずつ機能を追加していく予定です。
 
+## Demo
+<p align="center">
+  <img width="237" alt="2018-11-20 1 48 08" src="https://user-images.githubusercontent.com/4780752/48722913-98da5700-ec68-11e8-8df0-1db80a4e69b3.png">
+</p>
+
 ## Example
 ```
 import UIKit
