@@ -21,7 +21,10 @@ class ViewController: UIViewController, NRDatePickerDelegate {
         let picker = NRDatePicker(frame: CGRect(x: 20, y: 50, width: view.frame.width-20*2, height: 50))
         picker.pickerDelegate = self
 
-        // Set Custome Locale(Default Locale.current)
+        // Set Custom Format. Default Format is yyyy-MM-dd
+        // picker.format = "yyyy/MM/dd
+
+        // Set Custom Locale(Default Locale.current)
         // picker.locale = Locale(identifier: "ja_JP")
         
         // Set Start And End Date For String Format(yyyy-MM-dd)
@@ -30,7 +33,7 @@ class ViewController: UIViewController, NRDatePickerDelegate {
         // It is also possible to specify it by Date type
         // let _ = picker.setData(date: startDate, endDate)
         
-        // Custome UI
+        // Custom UI
         picker.borderStyle = UITextField.BorderStyle.line
         picker.layer.borderColor = UIColor.lightGray.cgColor
         picker.layer.borderWidth = 0.1
