@@ -10,6 +10,7 @@ From now on, I'd like to add functions little by little.
 ## Example
 ```
 import UIKit
+import NRDatePicker
 
 class ViewController: UIViewController, NRDatePickerDelegate {
 
