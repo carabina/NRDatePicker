@@ -15,9 +15,13 @@ class ViewController: UIViewController, NRDatePickerDelegate {
         // Set Start And End Date For String Format(yyyy-MM-dd)
         let _ = picker.setData(string: "2018-01-01", "2018-12-31")
         
+        // Set Default Value
+        picker.setDefault(string: "2018-01-31")
+        
         // It is also possible to specify it by Date type
         // let _ = picker.setData(date: startDate, endDate)
-        
+        // picker.setDefault(date: Date)
+
         // Custome UI
         //picker.borderStyle = UITextField.BorderStyle.line
         //picker.layer.borderColor = UIColor.lightGray.cgColor

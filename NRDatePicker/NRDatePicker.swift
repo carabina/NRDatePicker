@@ -41,6 +41,23 @@ public class NRDatePicker: UITextField, UIPickerViewDelegate, UIPickerViewDataSo
         inputAccessoryView = toolbar
     }
     
+    public func setDefault(string date: String) {
+        if let i = items.firstIndex(of: date) {
+            // picker.selectedRow(inComponent: i)
+            picker.selectRow(i, inComponent: 0, animated: false)
+        }
+    }
+    
+    public func setDefault(date: Date) {
+        
+        let outputFormatter = DateFormatter()
+        outputFormatter.locale = locale
+        outputFormatter.dateFormat = format
+        
+        let target = outputFormatter.string(from: date)
+        setDefault(string: target)
+    }
+    
     public func setData(string start: String, _ end: String) -> Bool {
         
         items = [String]()
